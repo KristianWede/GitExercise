@@ -15,6 +15,9 @@ public class Main {
     public int askForAge(){
         System.out.println("Hvor gammel er du?");
         int alder = sc.nextInt();
+        System.out.println("Hello once");
+        System.out.println("Hello!!! Twice!");
+        System.out.println("Nice to meet you!!!");
         System.out.println("Hello!!!");
         System.out.println("Din mor");
         return alder;

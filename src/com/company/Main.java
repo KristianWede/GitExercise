@@ -16,6 +16,7 @@ public class Main {
         System.out.println("Hvor gammel er du?");
         int alder = sc.nextInt();
         System.out.println("Hello!!!");
+        System.out.println("Din mor");
         return alder;
     }
 

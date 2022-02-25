@@ -6,7 +6,7 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
 
-    public void greet(){
+    public void greetCustomer(){
         System.out.println("Hej med dig! Hvad er dit navn?");
         String navn = sc.nextLine();
         System.out.println("Hej " + navn + "!");
@@ -22,7 +22,7 @@ public class Main {
     public static void main(String[] args) {
         Main obj = new Main();
 
-        obj.greet();
+        obj.greetCustomer();
         System.out.println("Du er " + obj.askForAge() + " år gammel!");
         System.out.println("It works!");
     }

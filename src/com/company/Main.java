@@ -12,11 +12,17 @@ public class Main {
         System.out.println("Hej " + navn + "!");
         System.out.println("Hej igen!");
     }
+    public int askForAge(){
+        System.out.println("Hvor gammel er du?");
+        int alder = sc.nextInt();
+        return alder;
+    }
 
     public static void main(String[] args) {
         Main obj = new Main();
 
         obj.greet();
+        System.out.println("Du er " + obj.askForAge() + " år gammel!");
         System.out.println("It works!");
     }
 }
